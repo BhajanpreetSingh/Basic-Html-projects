@@ -1,0 +1,102 @@
+
+.navbar{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+    background-color: grey;
+}
+
+
+.navbar a {
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;   
+    padding: 25px 25px ;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.image img{
+    width: 150px;
+    height: auto;
+    float: left;
+    margin-left: 80px;
+}
+.content img{
+    width: 100%;    
+    height: 60%;
+    opacity: 0.5;
+}
+
+.text p{
+    font-size: 100px;
+    align-items: center;
+    display: flex;
+    margin-left: 45px;
+}
+
+.gallery{
+    width: 80%;
+    padding: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+.gallery img{
+     width: 100%;
+     cursor: pointer;
+}
+
+
+footer{
+    background-color: black;
+}
+
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+
+
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+
+.socialicons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+
+.footernav{
+    margin: 30px 0;
+
+}
+
+.footernav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footernav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+    
+}
